@@ -49,6 +49,7 @@ To press the guide button, press the "start" and "a/o" buttons at the same time.
 * LTEK
 * Konami DDR GRAND PRIX Controller (BF110)
 * Born to Lead (B2L)
+* Yuancon PADUEX-U (HID mode)
 * arduino key for fsr firmware
 * Gamo2 PHOENIXWAN
 * RedOctane X-Plorer

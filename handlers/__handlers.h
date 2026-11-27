@@ -25,6 +25,7 @@
 #include "handlers/arduinokey.h"
 #include "handlers/hori.h"
 #include "handlers/teensy.h"
+#include "handlers/paduex_u.h"
 
 #define HANDLER_OUTPUTREPORT_REPEAT_TIME_US (1000 * 1000)
 
@@ -69,6 +70,7 @@ typedef enum
 
     HANDLER_HORI_POKKENWIIU,
     HANDLER_TEENSY,
+    HANDLER_PADUEX_U,
 
 } handler_type;
 

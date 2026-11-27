@@ -110,6 +110,10 @@ handler_type determine_handler(uint8_t dev_addr)
     {
         rtn = HANDLER_TEENSY;
     }
+    else if (is_PADUEX_U(dev_addr))
+    {
+        rtn = HANDLER_PADUEX_U;
+    }
 
     return rtn;
 }
